@@ -4,7 +4,7 @@
 * Installing `gcc`
 * Navigating inside a terminal with `pwd`, `cd` and `ls`
 * Our first program `hello_world.c`
-* Compiling out first program
+* Compiling our first program
 * Why should we use an IDE?
-* Showcase: CLion, How do we use `CMakeLists.txt`?
+* Showcase: CLion?
 * Homework for IN8011
