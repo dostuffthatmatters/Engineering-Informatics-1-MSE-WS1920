@@ -1,6 +1,7 @@
-## Tutorial (Group 6) - Engineering Informatics 1 (MSE) WS 19/20
+## Engineering Informatics 1 (MSE) WS 19/20 - Tutorial (Group 6)
 
-The tutorial takes place in the **Seminarraum MW 0337 (5503.EG.337)** every tuesday (17:00 - 19:15).
+This tutorial takes place in the **Seminarraum MW 0337 (5503.EG.337)** 
+every **Tuesday (17:00 - 19:15)**.
 
 **Tutorial Sessions:**
 ```
@@ -22,3 +23,7 @@ Tutorial 12 - 21.01.2020 - ...
 Tutorial 13 - 28.01.2020 - ...
 Tutorial 14 - 04.02.2020 - ...
 ```
+
+<br/>
+
+**Homework Assignments:** *coming soon*
