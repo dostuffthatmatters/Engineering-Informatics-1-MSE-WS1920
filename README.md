@@ -3,9 +3,9 @@
 This tutorial takes place in the **Seminarraum MW 0337 (5503.EG.337)** 
 every **Tuesday (17:00 - 19:15)**.
 
-**Tutorial Sessions:**
+### Tutorial Sessions:
 
-Tutorial 01 - 22.10.2019 - Introduction
+Tutorial 01 - 22.10.2019 - **Introduction**
 
 Tutorial 02 - 29.10.2019 - ...
 
@@ -23,7 +23,7 @@ Tutorial 08 - 10.12.2019 - ...
 
 Tutorial 09 - 17.12.2019 - ...
 
------ Winter Break -----
+*------ Winter Break ------*
 
 Tutorial 10 - 07.01.2020 - ...
 
@@ -38,9 +38,9 @@ Tutorial 14 - 04.02.2020 - ...
 
 <br/>
 
-**Homework Assignments:**
+### Homework Assignments:
 
-Homework 01 -  Hello World <br/>
+Homework 01 -  **Hello World** <br/>
 Available: 25.10.2019 <br/>
 Due: 03.11.2019
 
