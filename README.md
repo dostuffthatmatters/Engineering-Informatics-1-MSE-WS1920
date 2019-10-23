@@ -7,7 +7,7 @@ every **Tuesday (17:00 - 19:15)**.
 
 Tutorial 01 - 22.10.2019 - **Introduction**
 
-Tutorial 02 - 29.10.2019 - ...
+Tutorial 02 - 29.10.2019 - **Data Types, Boolean Logic and Arithmetic**
 
 Tutorial 03 - 05.11.2019 - ...
 
