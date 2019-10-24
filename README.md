@@ -5,11 +5,14 @@ every **Tuesday (17:00 - 19:15)**.
 
 ### Tutorial Sessions:
 
-Tutorial 01 - 22.10.2019 - **Introduction**
+Tutorial 01 - 22.10.2019 <br/>
+**Introduction**
 
-Tutorial 02 - 29.10.2019 - **Data Types, Boolean Logic and Arithmetic**
+Tutorial 02 - 29.10.2019 <br/>
+**Data Types, Boolean Logic, Arithmetic and Basic Control Flow**
 
-Tutorial 03 - 05.11.2019 - ...
+Tutorial 03 - 05.11.2019 <br/>
+**File Structure, Input/Output and More Control Flow**
 
 Tutorial 04 - 12.11.2019 - ...
 
