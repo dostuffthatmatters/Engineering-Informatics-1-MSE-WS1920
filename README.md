@@ -14,7 +14,8 @@ Tutorial 02 - 29.10.2019 <br/>
 Tutorial 03 - 05.11.2019 <br/>
 **File Structure, Input/Output and More Control Flow**
 
-Tutorial 04 - 12.11.2019 - ...
+Tutorial 04 - 12.11.2019 - <br/>
+**Arrays, Functions, Scope and Readability**
 
 Tutorial 05 - 19.11.2019 - ...
 
