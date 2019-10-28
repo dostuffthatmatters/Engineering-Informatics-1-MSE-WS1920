@@ -8,11 +8,11 @@ int main() {
     printf("\n%f\n", c);
 
     int d = 11;
-    float e = 3;
+    float e = 3;  // Same as 'float e = 3.0;'
     float f = d/e;
     printf("\n%f\n", f);
 
-    float g = 11;
+    float g = 11;  // Same as 'float g = 11.0;'
     int h = 3;
     float i = g/h;
     printf("\n%f\n", i);

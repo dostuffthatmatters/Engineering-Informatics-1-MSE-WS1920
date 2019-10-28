@@ -6,7 +6,7 @@ int main() {
     unsigned char b = 1;
     unsigned char c = 2;
     unsigned char d = 3;
-    unsigned char e = 3;
+    unsigned char e = 4;
 
     unsigned char ab = a + b;
     unsigned char ac = a + c;
