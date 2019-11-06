@@ -18,6 +18,7 @@ Tutorial 04 - 12.11.2019 <br/>
 **Arrays, Functions, Scope and Readability**
 
 Tutorial 05 - 19.11.2019 <br/>
+**Multidimensional Arrays and Type Casting**
 
 Tutorial 06 - 26.11.2019 <br/>
 
