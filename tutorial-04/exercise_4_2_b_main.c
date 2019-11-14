@@ -2,7 +2,7 @@
 #include "exercise_4_2_b_prime.c"
 
 int main() {
-    for (int i=0; i<100; i++) {
+    for (int i=1; i<=100; i++) {
         int prime = is_prime(i);
         switch (prime) {
             case 1:
