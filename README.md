@@ -21,8 +21,10 @@ Tutorial 05 - 19.11.2019 <br/>
 **Multidimensional Arrays, Type Casting, Struct's, Union's and Enum's**
 
 Tutorial 06 - 26.11.2019 <br/>
+**Multiple Files, `static`**
 
 Tutorial 07 - 03.12.2019 <br/>
+**Pointers**
 
 Tutorial 08 - 10.12.2019 <br/>
 
