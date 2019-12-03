@@ -7,4 +7,4 @@
 * Arrays and Pointers
 * **Exercise 7.2: Arrays and Pointers**
 * Structs and Pointers
-* **Exercise 7.3: Practice**
+* **Exercise 7.3: Practice Project - Stacks**
