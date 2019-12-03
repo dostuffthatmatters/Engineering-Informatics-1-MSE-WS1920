@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "exercise_7_3_stack_implementation.h"
+#include "stack.h"
 
 /*!
  * @brief This is a function that print a full stack formatted to

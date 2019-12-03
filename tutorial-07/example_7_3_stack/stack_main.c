@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "exercise_7_3_stack_implementation.h"
+#include "stack.h"
 
 
 int main() {

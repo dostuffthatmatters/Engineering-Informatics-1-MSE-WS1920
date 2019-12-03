@@ -2,7 +2,7 @@
 #include <stdint.h>
 #include <stdio.h>
 
-#include "exercise_7_3_stack_implementation.h"
+#include "stack.h"
 
 void test_push(uint8_t *passed, uint8_t *failed);
 void test_peek(uint8_t *passed, uint8_t *failed);
