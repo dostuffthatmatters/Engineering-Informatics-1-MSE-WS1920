@@ -56,6 +56,7 @@ void init(struct Stack* s, char* buffer, int max) {
  */
 int push(struct Stack* s, char c) {
     // YOUR CODE HERE
+
     return 0;
 }
 

@@ -15,7 +15,9 @@ int main() {
     print_stack_debug(&my_stack);
 
     push(&my_stack, 'H');
+    print_stack_debug(&my_stack);
     push(&my_stack, 'e');
+    print_stack_debug(&my_stack);
     push(&my_stack, 'l');
     print_stack_debug(&my_stack);
 
