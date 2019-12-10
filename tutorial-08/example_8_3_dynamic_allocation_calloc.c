@@ -11,7 +11,7 @@ int main() {
     int input_number = atoi(input_array);
     printf("You've entered: %d (\"%s\").\n\n", input_number, input_array);
 
-    int *squares = malloc(sizeof(int) * input_number);
+    int *squares = calloc(sizeof(int), input_number);
 
     for (int i=0; i<input_number; i++) {
         printf("%2d (index) -> %4d (value)\n", i, squares[i]);
@@ -20,7 +20,7 @@ int main() {
     printf("\n\n");
 
     for (int i=0; i<input_number; i++) {
-        squares[i] = (i+1)*(i+1);
+        *(squares + i) = (i+1)*(i+1);
     }
 
     for (int i=0; i<input_number; i++) {
