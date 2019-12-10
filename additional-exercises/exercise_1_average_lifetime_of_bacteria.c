@@ -48,7 +48,7 @@ int main() {
         accumulated_lifetime += simulation_step(probability_of_dying);
     }
 
-    average_lifetime = accumulated_lifetime / (number_of_simulations * 1.0);
+    average_lifetime = accumulated_lifetime / ((float)number_of_simulations);
 
     printf("The average bacterium survives %.3f time steps.", average_lifetime);
 }

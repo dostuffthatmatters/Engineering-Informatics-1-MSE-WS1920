@@ -24,9 +24,10 @@ Tutorial 06 - 26.11.2019 <br/>
 **Multiple Files, `static`**
 
 Tutorial 07 - 03.12.2019 <br/>
-**Pointers**
+**Pointers, Practice Project "Stacks"**
 
 Tutorial 08 - 10.12.2019 <br/>
+**Dynamic Memory Allocation, Recursion, Practice Project "Equation Solver"**
 
 Tutorial 09 - 17.12.2019 <br/>
 

@@ -1,4 +1,4 @@
-#### Tutorial 07 - 03.12.2019 - Pointers
+#### Tutorial 07 - 03.12.2019 - Pointers, Practice Project "Stacks"
 
 **Agenda:**
 * Pointers
