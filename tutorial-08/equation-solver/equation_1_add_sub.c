@@ -1,17 +1,21 @@
 #include <stdio.h>
 
-int equation_solver(char *equation, int max_length);
+int evaluate_add_sub(char *equation, int max_length);
 
 int main() {
     char equation_1[100] = "14+33-4-78+5";
-    int solution_1 = equation_solver(equation_1, 100);
+    int solution_1 = evaluate_add_sub(equation_1, 100);
 
     printf("Equation: %s, Solution: %d", equation_1, solution_1);
 
     return 0;
 }
 
-int equation_solver(char *equation, int max_length) {
+/**
+ * This method evaluates an equation containing only
+ * addition- and subtraction-operators.
+ */
+int evaluate_add_sub(char *equation, int max_length) {
 
     int sum = 0;
     int current_sign = 1;
