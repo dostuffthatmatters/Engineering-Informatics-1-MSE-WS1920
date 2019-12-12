@@ -21,7 +21,7 @@ int main() {
 int factorial_loop(int n) {
     int f;
     if (0 <= n && n <= 1) {
-        f = n;
+        f = 1;
     } else {
         f = 1;
         for (int i=2; i<=n; i++) {
