@@ -153,7 +153,7 @@ char hard_string[100] = "1+40*[(55-30)*4+16]";
 
 <br/>
 
-**Solution** *will follow shortly.*
+**Solution** `exercise_7_equation_strings/`
 
 <br/>
 
