@@ -10,8 +10,8 @@ void print_char_array(char* char_array, int length) {
 }
 
 int main() {
-    char input_a[8] = {'\0'};
-    char input_b[8] = {'\0'};
+    char input_a[8] = {0};
+    char input_b[8] = {0};
 
     printf("\nPlease enter a String: ");
     scanf("%7s", input_a);

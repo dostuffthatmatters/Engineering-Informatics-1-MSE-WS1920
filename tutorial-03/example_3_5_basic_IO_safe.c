@@ -20,11 +20,11 @@ void my_flush(void) {
 }
 
 int main() {
-    char input_a[8] = {'\0'};
+    char input_a[16] = {'\0'};
     char input_b[8] = {'\0'};
 
     printf("\nPlease enter a String: ");
-    scanf("%7s", input_a);
+    scanf("%15s", input_a);
     my_flush();
 
     print_char_array(input_a, 8);

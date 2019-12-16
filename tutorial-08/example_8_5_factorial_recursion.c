@@ -4,10 +4,15 @@ int factorial_recursion(int n);
 
 int main() {
     int n, f;
+
+    char string[100] = {0};
+
     printf("Enter the number whose factorial you want to calculate?");
-    scanf("%d", &n);
+    scanf("%s", string);
     f = factorial_recursion(n);
     printf("factorial = %d", f);
+
+    printf("\n\nString: \"%s\"", string);
 }
 
 /**

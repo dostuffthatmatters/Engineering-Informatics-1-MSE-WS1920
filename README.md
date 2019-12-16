@@ -30,14 +30,17 @@ Tutorial 08 - 10.12.2019 <br/>
 **Dynamic Memory Allocation, Recursion, Practice Project "Equation Solver"**
 
 Tutorial 09 - 17.12.2019 <br/>
+**Singly-Linked Lists, Higher-Order Functions**
 
 *------ Winter Break ------*
 
-Tutorial 10 - 07.01.2020
+*Not tutorial on 07.01.2020*
 
 Tutorial 11 - 14.01.2020 <br/>
+**Trees**
 
 Tutorial 12 - 21.01.2020 <br/>
+**Sorting Algorithms**
 
 Tutorial 13 - 28.01.2020 <br/>
 
