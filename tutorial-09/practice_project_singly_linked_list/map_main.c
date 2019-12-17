@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-#include "list_map.h"
+#include "map.h"
 
 void increment(struct node *node);
 void decrement(struct node *node);
