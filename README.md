@@ -37,23 +37,14 @@ Tutorial 09 - 17.12.2019 <br/>
 *Not tutorial on 07.01.2020*
 
 Tutorial 11 - 14.01.2020 <br/>
-**Trees**
+**Repetition: Structs and Pointers**
 
 Tutorial 12 - 21.01.2020 <br/>
-**Sorting Algorithms**
+**Trees**
 
 Tutorial 13 - 28.01.2020 <br/>
+**Sorting Algorithms**
 
 Tutorial 14 - 04.02.2020 <br/>
-
-
-<br/>
-
-### Homework Assignments:
-
-Homework 01 -  **Hello World** <br/>
-Available: 25.10.2019 <br/>
-Due: 03.11.2019
-
-
+**Repetition: ...**
 
