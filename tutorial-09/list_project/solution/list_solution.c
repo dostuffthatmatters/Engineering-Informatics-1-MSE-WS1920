@@ -5,6 +5,11 @@
 #include "../list.h"
 
 
+// Not required - just as a recursion example
+void remove_list_recursively(struct list *list);
+void remove_node_recursively(struct node *node);
+
+
 /**
  * This function prints out a list.
  */
@@ -47,6 +52,31 @@ void remove_list(struct list *list) {
 
     free(list);
 }
+
+
+// --------------------------------------------------------------------------------------------------------------------
+
+/**
+ * Does exactly the same as 'remove_list'
+ * but uses recursion
+ *
+ * @param list - list to remove
+ */
+void remove_list_recursively(struct list *list) {
+    if (list->head != 0) {
+        remove_node_recursively(list->head);
+    }
+    free(list);
+}
+
+void remove_node_recursively(struct node *node) {
+    if (node->next != 0) {
+        remove_node_recursively(node->next);
+    }
+    free(node);
+}
+
+// --------------------------------------------------------------------------------------------------------------------
 
 
 /**
