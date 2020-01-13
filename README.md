@@ -34,7 +34,7 @@ Tutorial 09 - 17.12.2019 <br/>
 
 *------ Winter Break ------*
 
-*Not tutorial on 07.01.2020*
+*No tutorial on 07.01.2020*
 
 Tutorial 11 - 14.01.2020 <br/>
 **Repetition: Structs and Pointers**
