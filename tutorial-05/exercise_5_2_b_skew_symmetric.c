@@ -1,3 +1,9 @@
+/************************************************************************************
+* Author: Moritz Makowski
+* Lecture: MSE Informatik I - WS19/20
+* Session: Tutorial 05
+************************************************************************************/
+
 
 /**
  * This function determines whether a given matrix is symmetric or not

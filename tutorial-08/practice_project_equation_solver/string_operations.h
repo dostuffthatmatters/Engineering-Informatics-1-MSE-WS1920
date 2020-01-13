@@ -1,3 +1,9 @@
+/************************************************************************************
+* Author: Moritz Makowski
+* Lecture: MSE Informatik I - WS19/20
+* Session: Tutorial 08
+************************************************************************************/
+
 
 #ifndef TUTORIALS_STRING_OPERATIONS_H
 #define TUTORIALS_STRING_OPERATIONS_H

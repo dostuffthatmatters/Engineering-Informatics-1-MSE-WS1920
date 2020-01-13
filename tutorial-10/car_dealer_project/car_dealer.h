@@ -1,3 +1,10 @@
+/************************************************************************************
+* Author: Moritz Makowski
+* Lecture: MSE Informatik I - WS19/20
+* Session: Tutorial 10
+************************************************************************************/
+
+
 #ifndef TUTORIAL_REPOSITORY_CAR_DEALER_H
 #define TUTORIAL_REPOSITORY_CAR_DEALER_H
 

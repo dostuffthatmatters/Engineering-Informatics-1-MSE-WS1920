@@ -1,5 +1,11 @@
-#include <stdio.h>
+/************************************************************************************
+* Author: Moritz Makowski
+* Lecture: MSE Informatik I - WS19/20
+* Session: Tutorial 06
+************************************************************************************/
 
+
+#include <stdio.h>
 #include "print_matrices.h"
 
 /**

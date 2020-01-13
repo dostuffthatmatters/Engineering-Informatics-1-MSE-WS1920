@@ -1,3 +1,10 @@
+/************************************************************************************
+* Author: Moritz Makowski
+* Lecture: MSE Informatik I - WS19/20
+* Session: Tutorial 05
+************************************************************************************/
+
+
 #include <stdio.h>
 #include "exercise_5_2_a_symmetric.c"
 #include "exercise_5_2_b_skew_symmetric.c"

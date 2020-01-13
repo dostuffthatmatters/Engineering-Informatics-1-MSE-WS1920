@@ -1,3 +1,9 @@
+/************************************************************************************
+* Author: Moritz Makowski
+* Lecture: MSE Informatik I - WS19/20
+* Session: Tutorial 07
+************************************************************************************/
+
 
 #ifndef ENGINEERING_INFORMATICS_1_MSE_WS1920_STACK_H
 #define ENGINEERING_INFORMATICS_1_MSE_WS1920_STACK_H

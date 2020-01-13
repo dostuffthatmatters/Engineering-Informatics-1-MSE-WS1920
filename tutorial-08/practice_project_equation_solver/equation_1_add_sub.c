@@ -1,3 +1,10 @@
+/************************************************************************************
+* Author: Moritz Makowski
+* Lecture: MSE Informatik I - WS19/20
+* Session: Tutorial 08
+************************************************************************************/
+
+
 #include <stdio.h>
 
 int evaluate_add_sub(char *equation, int max_length);

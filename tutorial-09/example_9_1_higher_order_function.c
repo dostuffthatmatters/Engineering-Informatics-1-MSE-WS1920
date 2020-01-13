@@ -1,3 +1,10 @@
+/************************************************************************************
+* Author: Moritz Makowski
+* Lecture: MSE Informatik I - WS19/20
+* Session: Tutorial 09
+************************************************************************************/
+
+
 #include <stdio.h>
 
 void apply(int *number, void (*function)(int *));

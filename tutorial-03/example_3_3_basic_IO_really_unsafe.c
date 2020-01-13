@@ -1,3 +1,10 @@
+/************************************************************************************
+* Author: Moritz Makowski
+* Lecture: MSE Informatik I - WS19/20
+* Session: Tutorial 03
+************************************************************************************/
+
+
 #include <stdio.h>
 
 // You don't have to understand this function yet!

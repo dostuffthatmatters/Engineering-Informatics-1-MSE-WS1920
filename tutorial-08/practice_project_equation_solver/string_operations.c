@@ -1,5 +1,11 @@
-#include <stdlib.h>
+/************************************************************************************
+* Author: Moritz Makowski
+* Lecture: MSE Informatik I - WS19/20
+* Session: Tutorial 08
+************************************************************************************/
 
+
+#include <stdlib.h>
 #include "string_operations.h"
 
 

@@ -1,3 +1,10 @@
+/************************************************************************************
+* Author: Moritz Makowski
+* Lecture: MSE Informatik I - WS19/20
+* Session: Tutorial 05
+************************************************************************************/
+
+
 #include <stdio.h>
 
 int is_element_in_array(int *array, int length, element) {
