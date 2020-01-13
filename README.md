@@ -1,6 +1,6 @@
 ## Engineering Informatics 1 (MSE) WS 19/20 - Tutorial (Group 6)
 
-This tutorial takes place in the [**Seminarraum MW 0337 (5503.EG.337)**](https://www.ph.tum.de/about/visit/roomfinder/?room=5503.EG.337) 
+This tutorial takes place in the <a href="https://www.ph.tum.de/about/visit/roomfinder/?room=5503.EG.337" target="_blank">**Seminarraum MW 0337 (5503.EG.337)**</a>
 every **Tuesday (17:00 - 19:15)**.
 
 ### Tutorial Sessions:
