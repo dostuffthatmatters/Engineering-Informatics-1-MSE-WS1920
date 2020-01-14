@@ -57,7 +57,7 @@ struct Dealer *init_dealer(int account_balance);
  * @param model
  * @param price
  */
-void add_car(struct Dealer *dealer, char brand[32], char model[32], int price);
+void add_car(struct Dealer *dealer, char brand[20], char model[20], int price);
 
 /**
  * Removes a given car instance from a dealers inventory. The
@@ -110,7 +110,7 @@ int mean_car_price(struct Dealer *dealer);
  *
  * @return Pointer to newly created struct
  */
-struct Customer *init_customer(int account_balance, char desired_brand[32], char desired_model[32]);
+struct Customer *init_customer(int account_balance, char desired_brand[20], char desired_model[20]);
 
 
 

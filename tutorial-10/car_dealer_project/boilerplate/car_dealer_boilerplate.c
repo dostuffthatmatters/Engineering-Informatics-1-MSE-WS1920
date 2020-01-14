@@ -17,7 +17,7 @@ struct Dealer *init_dealer(int account_balance) {
     return 0;
 }
 
-void add_car(struct Dealer *dealer, char brand[32], char model[32], int price) {
+void add_car(struct Dealer *dealer, char brand[20], char model[20], int price) {
     // YOUR CODE HERE
 }
 
@@ -50,7 +50,7 @@ int mean_car_price(struct Dealer *dealer) {
 
 /* Customer Initialization ------------------------------------------------------- */
 
-struct Customer *init_customer(int account_balance, char desired_brand[32], char desired_model[32]) {
+struct Customer *init_customer(int account_balance, char desired_brand[20], char desired_model[20]) {
     // YOUR CODE HERE
     return 0;
 }
