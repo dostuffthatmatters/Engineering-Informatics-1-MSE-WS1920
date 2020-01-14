@@ -4,25 +4,45 @@
 * Session: Tutorial 10
 ************************************************************************************/
 
-
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 #include "../car_dealer.h"
-
-
 
 
 /* Dealer Initialization/Manipulation -------------------------------------------- */
 
 struct Dealer *init_dealer(int account_balance) {
-    // YOUR CODE HERE
-    return 0;
+    struct Dealer *dealer = calloc(sizeof(struct Dealer), 1);
+    dealer->account_balance = account_balance;
+    return dealer;
 }
 
-void add_car(struct Dealer *dealer, char brand[20], char model[20], int price) {
-    // YOUR CODE HERE
+void add_car(struct Dealer *dealer, char brand[32], char model[32], int price) {
+    struct Car *car = calloc(sizeof(struct Car), 1);
+    strcpy(car->brand, brand);
+    strcpy(car->model, model);
+    car->price = price;
+    for (int i=0; i<100; i++) {
+        if (dealer->cars[i] == 0) {
+            dealer->cars[i] = car;
+            return;
+        }
+    }
 }
 
 void remove_car(struct Dealer *dealer, struct Car *car) {
-    // YOUR CODE HERE
+    int shifts = 0;
+    for (int i=0; i<100; i++) {
+        if (dealer->cars[i] == car) {
+            shifts += 1;
+        }
+        if (i+shifts < 100) {
+            dealer->cars[i] = dealer->cars[i+shifts];
+        }
+    }
+
+    free(car);
 }
 
 
@@ -81,15 +101,37 @@ int buy_car(struct Dealer *dealer, struct Customer *customer) {
 /* Printing functions ------------------------------------------------------------ */
 
 void print_car(struct Car *car) {
-    // YOUR CODE HERE
+    printf("<Car(");
+    printf("brand: %s, ", car->brand);
+    printf("model: %s, ", car->model);
+    printf("price: %d T€)>\n", car->price);
 }
 
 void print_dealer(struct Dealer *dealer) {
-    // YOUR CODE HERE
+    printf("<Dealer(");
+    printf("account_balance: %d T€, ", dealer->account_balance);
+    printf("cars: [\n");
+    for (int i=0; i<100; i++) {
+        if (dealer->cars[i] == 0) {
+            break;
+        } else {
+            printf("\t");
+            print_car(dealer->cars[i]);
+        }
+    }
+    printf("])>\n");
 }
 
 void print_customer(struct Customer *customer) {
-    // YOUR CODE HERE
+    printf("<Customer(");
+    printf("account_balance: %d T€, ", customer->account_balance);
+    printf("desired_brand: %s, ", customer->desired_brand);
+    printf("desired_model: %s, car: [", customer->desired_model);
+    if (customer->car != 0) {
+        printf("\n\t");
+        print_car(customer->car);
+    }
+    printf("])>\n");
 }
 
 
