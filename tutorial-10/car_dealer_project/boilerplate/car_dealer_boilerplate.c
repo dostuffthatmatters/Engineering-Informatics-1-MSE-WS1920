@@ -13,35 +13,48 @@
 /* Dealer Initialization/Manipulation -------------------------------------------- */
 
 struct Dealer *init_dealer(int account_balance) {
-    struct Dealer *dealer = calloc(sizeof(struct Dealer), 1);
-    dealer->account_balance = account_balance;
-    return dealer;
+    struct Dealer *pointer_to_new_dealer = calloc(sizeof(struct Dealer), 1);
+    pointer_to_new_dealer->account_balance = account_balance;
+    return pointer_to_new_dealer;
 }
 
-void add_car(struct Dealer *dealer, char brand[32], char model[32], int price) {
+void add_car(struct Dealer *dealer, char brand[20], char model[20], int price) {
     struct Car *car = calloc(sizeof(struct Car), 1);
+
     strcpy(car->brand, brand);
     strcpy(car->model, model);
     car->price = price;
-    for (int i=0; i<100; i++) {
+
+    for (int i=0; i<20; i++) {
         if (dealer->cars[i] == 0) {
             dealer->cars[i] = car;
             return;
         }
     }
+
+    // Only reached if car has not been added
+    free(car);
 }
 
 void remove_car(struct Dealer *dealer, struct Car *car) {
     int shifts = 0;
-    for (int i=0; i<100; i++) {
+    for (int i=0; i<20; i++) {
         if (dealer->cars[i] == car) {
             shifts += 1;
+
+            i--;
+            // necessary because otherwise the next element will
+            // be skipped. Bad scenario: Two or more successive
+            // elements all have the same pointer. However duplicate
+            // pointer should not be possible when regularly adding
+            // cars to the dealer with 'add_car'
         }
-        if (i+shifts < 100) {
+        if (i+shifts < 20) {
             dealer->cars[i] = dealer->cars[i+shifts];
         }
     }
 
+    // Releasing car-memory
     free(car);
 }
 
