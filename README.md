@@ -40,10 +40,10 @@ Tutorial 10 - 14.01.2020 <br/>
 [**Repetition: Structs and Pointers**](https://github.com/dostuffthatmatters/Engineering-Informatics-1-MSE-WS1920/tree/master/tutorial-10)
 
 Tutorial 11 - 21.01.2020 <br/>
-**Trees**
+[**Trees**](https://github.com/dostuffthatmatters/Engineering-Informatics-1-MSE-WS1920/tree/master/tutorial-11)
 
 Tutorial 12 - 28.01.2020 <br/>
-**Sorting Algorithms**
+[**Sorting Algorithms**](https://github.com/dostuffthatmatters/Engineering-Informatics-1-MSE-WS1920/tree/master/tutorial-12)
 
 Tutorial 13 - 04.02.2020 <br/>
 **Repetition: ...**
