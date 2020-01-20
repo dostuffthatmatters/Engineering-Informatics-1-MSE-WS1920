@@ -16,3 +16,14 @@ add_executable(car_dealer_solution
         tutorial-10/car_dealer_project/car_dealer_main.c
         tutorial-10/car_dealer_project/solution/car_dealer_solution.c)
 
+
+add_executable(tree_dfs_solution
+        tutorial-11/tree_project/dfs_main.c
+        tutorial-11/tree_project/tree/tree.c
+        tutorial-11/tree_project/solution/dfs_solution.c)
+
+add_executable(tree_bfs_solution
+        tutorial-11/tree_project/bfs_main.c
+        tutorial-11/tree_project/tree/tree.c
+        tutorial-11/tree_project/solution/bfs_solution.c)
+
