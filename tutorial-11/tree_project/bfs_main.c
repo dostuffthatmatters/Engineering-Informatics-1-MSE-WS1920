@@ -7,7 +7,6 @@ int main() {
 
     struct TreeNode *root = init_node('A');
 
-
     // Left: Subtree B
     add_left_child(root, 'B');
 
