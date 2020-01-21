@@ -42,12 +42,15 @@ int main() {
     print_tree(root);
 
     printf("\n\n------------------------------\n\nPreorder DFS\n");
+    printf("A B D F G E H J K M N L I C O Q R P S T (Solution)\n");
     preorder_dfs_print(root);
 
     printf("\n\nIn-Order DFS\n");
+    printf("F D G B M K N J L H E I A Q O R C S P T (Solution)\n");
     in_order_dfs_print(root);
 
     printf("\n\nPostorder DFS\n");
+    printf("F G D M N K L J H I E B Q R O S T P C A (Solution)\n");
     postorder_dfs_print(root);
 
     return 0;

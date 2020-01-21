@@ -41,6 +41,7 @@ int main() {
     print_tree(root);
 
     printf("\n\n------------------------------\n\nBFS\n");
+    printf("A B C D E O P F G H I Q R S T J K L M N (Solution)\n");
     bfs_print(root);
 
     return 0;
