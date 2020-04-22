@@ -11,7 +11,7 @@ int main() {
     // Let's say we only want parameter a
     // to be between 0 and 10
 
-    // Try to change `a` and see what happens
+    // Try to change "a" and see what happens
     int a = 9;
 
     if (a < 0) {
