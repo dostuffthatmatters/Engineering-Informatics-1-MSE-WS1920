@@ -46,5 +46,4 @@ Tutorial 12 - 28.01.2020 <br/>
 [**Sorting Algorithms**](https://github.com/dostuffthatmatters/Engineering-Informatics-1-MSE-WS1920/tree/master/tutorial-12)
 
 Tutorial 13 - 04.02.2020 <br/>
-**Repetition: ...**
-
+[**Revision**](https://github.com/dostuffthatmatters/Engineering-Informatics-1-MSE-WS1920/tree/master/tutorial-13)
